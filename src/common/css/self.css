@@ -1,0 +1,35 @@
+.selfGray {
+	color: #D0CDCD;
+}
+
+.selfOrange {
+	color: #FDC158;
+}
+
+.selfRed {
+	color: #910101;
+}
+
+.oneScoresCard img {
+	width: 63px;
+}
+
+.oneScoresCard img.rewardBigImg{
+	width:100px;
+	margin-top:10px;
+}
+
+.orBt {
+	min-width: 124px;
+	height: 37px;
+	font-size: 1.07em;
+	color: black;
+	background: linear-gradient(to bottom, rgb(206, 142, 43), rgb(250, 210, 60));
+	border-radius: 18px;
+}
+
+.orBt.grayBT {
+	background: lightgray;
+	color: gray;
+}
+

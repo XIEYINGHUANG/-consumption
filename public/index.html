@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <title>和+消费共享平台</title>
+    <script>
+        var _hmt = _hmt || [];
+        var isDev = location.href.indexOf('heplus.esmart365.com') === -1;
+        (function() {
+            var hm = document.createElement("script");
+            // 前者为测试环境的百度统计应用CODE，  后者为生产环境的百度统计应用CODE 
+            var code = isDev ? '3e4f777333cda88905fdcbb08158fba4' : 'ed76fe2b08e7464826e1c2e171977f4b';
+            hm.src = "https://hm.baidu.com/hm.js?" + code; //生产
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!--<script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>-->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but share-platform doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+    <!-- built files will be auto injected -->
+    <script>
+      window.onload = function () {
+        window.addEventListener('offline', function(){
+            alert('当前已断开网络连接，请及时恢复')
+        })
+      }
+    </script>
+  </body>
+  <style>
+   body {
+    height: 100%;
+  	width: 100%;
+	  overflow-x: hidden;
+   }
+  </style>
+</html>
